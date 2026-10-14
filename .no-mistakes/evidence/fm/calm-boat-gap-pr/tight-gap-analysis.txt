@@ -1,0 +1,133 @@
+== tight-boat-0.txt ==
+prompt_i=6 sail_i=11 hull_i=12
+rows_between_prompt_and_sail=4 all_blank=True hull_below=True
+000|
+001| ▐▛███▛█   Claude Code v2.1.296
+002|▝▜██████▀  Haiku 5.5 · Claude Pro
+003| ▝▝   ▝▝   /tmp/fm-lab.irfDwU/project
+004|
+005|
+006|❯ Use the Bash tool to run exactly: sleep 15; printf BOATGAP_TOKEN  <-- highlighted prompt
+007|  <-- gap
+008|  <-- gap
+009|  <-- gap
+010|  <-- gap
+011| ◿│◣  <-- sail
+012|╲▁▁▁╱▁▁▁▁▁▂▂▂▃▃▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▄▄▃▃▃▂▂▂▁▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▄▃▃▂▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▃▃▂▂▁▁▁▁▁  <-- hull
+013|                                                                                ◐ medium · /effort
+014|────────────────────────────────────────────────────────────────────────────────────────────────────
+015|❯ 
+016|────────────────────────────────────────────────────────────────────────────────────────────────────
+017|  ⏵⏵ bypass permissions on (shift+tab to cycle) · esc to interrupt · ← for agents
+
+== tight-boat-1.txt ==
+prompt_i=6 sail_i=11 hull_i=12
+rows_between_prompt_and_sail=4 all_blank=True hull_below=True
+000|
+001| ▐▛███▛█   Claude Code v2.1.296
+002|▝▜██████▀  Haiku 5.5 · Claude Pro
+003| ▝▝   ▝▝   /tmp/fm-lab.irfDwU/project
+004|
+005|
+006|❯ Use the Bash tool to run exactly: sleep 15; printf BOATGAP_TOKEN  <-- highlighted prompt
+007|  <-- gap
+008|  <-- gap
+009|  <-- gap
+010|  <-- gap
+011| ◿│◣  <-- sail
+012|╲▁▁▁╱▁▁▁▁▁▁▂▂▃▃▄▄▄▄▄▄▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▃▄▄▄▄▄▄▃▃▃▂▂▂▁▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▃▃▃▂▂▁▁▁▁  <-- hull
+013|                                                                                ◐ medium · /effort
+014|────────────────────────────────────────────────────────────────────────────────────────────────────
+015|❯ 
+016|────────────────────────────────────────────────────────────────────────────────────────────────────
+017|  ⏵⏵ bypass permissions on (shift+tab to cycle) · esc to interrupt · ← for agents
+
+== tight-boat-2.txt ==
+prompt_i=6 sail_i=11 hull_i=12
+rows_between_prompt_and_sail=4 all_blank=True hull_below=True
+000|
+001| ▐▛███▛█   Claude Code v2.1.296
+002|▝▜██████▀  Haiku 5.5 · Claude Pro
+003| ▝▝   ▝▝   /tmp/fm-lab.irfDwU/project
+004|
+005|
+006|❯ Use the Bash tool to run exactly: sleep 15; printf BOATGAP_TOKEN  <-- highlighted prompt
+007|  <-- gap
+008|  <-- gap
+009|  <-- gap
+010|  <-- gap
+011|  ◿│◣  <-- sail
+012|▁╲▁▁▁╱▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▃▃▃▂▂▂▁▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▄▃▃▂▂▁▁▁▁  <-- hull
+013|                                                                                ◐ medium · /effort
+014|────────────────────────────────────────────────────────────────────────────────────────────────────
+015|❯ 
+016|────────────────────────────────────────────────────────────────────────────────────────────────────
+017|  ⏵⏵ bypass permissions on (shift+tab to cycle) · esc to interrupt · ← for agents
+
+== tight-boat-3.txt ==
+prompt_i=6 sail_i=11 hull_i=12
+rows_between_prompt_and_sail=4 all_blank=True hull_below=True
+000|
+001| ▐▛███▛█   Claude Code v2.1.296
+002|▝▜██████▀  Haiku 5.5 · Claude Pro
+003| ▝▝   ▝▝   /tmp/fm-lab.irfDwU/project
+004|
+005|
+006|❯ Use the Bash tool to run exactly: sleep 15; printf BOATGAP_TOKEN  <-- highlighted prompt
+007|  <-- gap
+008|  <-- gap
+009|  <-- gap
+010|  <-- gap
+011|  ◿│◣  <-- sail
+012|▁╲▁▁▁╱▁▁▁▁▁▁▂▂▃▃▄▄▄▄▄▄▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▃▄▄▄▄▄▄▃▃▃▂▂▂▁▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▃▃▃▂▂▁▁▁  <-- hull
+013|                                                                                ◐ medium · /effort
+014|────────────────────────────────────────────────────────────────────────────────────────────────────
+015|❯ 
+016|────────────────────────────────────────────────────────────────────────────────────────────────────
+017|  ⏵⏵ bypass permissions on (shift+tab to cycle) · esc to interrupt · ← for agents
+
+== tight-boat-4.txt ==
+prompt_i=6 sail_i=11 hull_i=12
+rows_between_prompt_and_sail=4 all_blank=True hull_below=True
+000|
+001| ▐▛███▛█   Claude Code v2.1.296
+002|▝▜██████▀  Haiku 5.5 · Claude Pro
+003| ▝▝   ▝▝   /tmp/fm-lab.irfDwU/project
+004|
+005|
+006|❯ Use the Bash tool to run exactly: sleep 15; printf BOATGAP_TOKEN  <-- highlighted prompt
+007|  <-- gap
+008|  <-- gap
+009|  <-- gap
+010|  <-- gap
+011|  ◿│◣  <-- sail
+012|▁╲▁▁▁╱▁▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▃▃▂▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▄▃▃▃▂▂▂▁▁▁▁▁▁▂▂▂▃▃▄▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▄▃▃▂▂▁▁▁  <-- hull
+013|                                                                                ◐ medium · /effort
+014|────────────────────────────────────────────────────────────────────────────────────────────────────
+015|❯ 
+016|────────────────────────────────────────────────────────────────────────────────────────────────────
+017|  ⏵⏵ bypass permissions on (shift+tab to cycle) · esc to interrupt · ← for agents
+
+== tight-boat-5.txt ==
+prompt_i=6 sail_i=11 hull_i=12
+rows_between_prompt_and_sail=4 all_blank=True hull_below=True
+000|
+001| ▐▛███▛█   Claude Code v2.1.296
+002|▝▜██████▀  Haiku 5.5 · Claude Pro
+003| ▝▝   ▝▝   /tmp/fm-lab.irfDwU/project
+004|
+005|
+006|❯ Use the Bash tool to run exactly: sleep 15; printf BOATGAP_TOKEN  <-- highlighted prompt
+007|  <-- gap
+008|  <-- gap
+009|  <-- gap
+010|  <-- gap
+011|   ◿│◣  <-- sail
+012|▁▁╲▁▁▁╱▁▁▁▁▁▂▂▂▃▃▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▄▄▃▃▃▂▂▂▁▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▄▃▃▂▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▃▃▂▂▁▁▁  <-- hull
+013|                                                                                ◐ medium · /effort
+014|────────────────────────────────────────────────────────────────────────────────────────────────────
+015|❯ 
+016|────────────────────────────────────────────────────────────────────────────────────────────────────
+017|  ⏵⏵ bypass permissions on (shift+tab to cycle) · esc to interrupt · ← for agents
+
+ok_frames=0/6

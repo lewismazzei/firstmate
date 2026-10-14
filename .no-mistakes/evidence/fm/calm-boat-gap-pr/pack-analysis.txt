@@ -1,0 +1,10 @@
+pack-boat-0.txt: last_prompt=9 sail=11 hull=12 gap=1 blank=True packed=True
+pack-boat-1.txt: last_prompt=9 sail=11 hull=12 gap=1 blank=True packed=True
+pack-boat-2.txt: last_prompt=9 sail=11 hull=12 gap=1 blank=True packed=True
+pack-boat-3.txt: last_prompt=9 sail=11 hull=12 gap=1 blank=True packed=True
+pack-y12.txt: last_prompt=3 sail=5 hull=6 gap=1 blank=True packed=True
+pack-y13.txt: last_prompt=4 sail=6 hull=7 gap=1 blank=True packed=True
+pack-y14.txt: last_prompt=5 sail=7 hull=8 gap=1 blank=True packed=True
+pack-y15.txt: last_prompt=6 sail=8 hull=9 gap=1 blank=True packed=True
+pack-y16.txt: last_prompt=7 sail=9 hull=10 gap=1 blank=True packed=True
+pack-y18.txt: last_prompt=9 sail=11 hull=12 gap=1 blank=True packed=True

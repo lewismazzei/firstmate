@@ -1,0 +1,20 @@
+
+ ▐▛███▛█   Claude Code v2.1.296
+▝▜██████▀  Haiku 5.5 · Claude Pro
+ ▝▝   ▝▝   /tmp/fm-lab.QhI7pp/project
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+❯ Use the Bash tool to run exactly: sleep 25; printf BOATGAP_TOKEN
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ⏵⏵ bypass permissions on (shift+tab to cycle)

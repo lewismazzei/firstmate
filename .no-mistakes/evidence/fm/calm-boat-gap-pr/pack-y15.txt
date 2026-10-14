@@ -1,0 +1,15 @@
+❯ Use the Bash tool to run exactly this command and nothing else: sleep 22; printf BOATGAP_TOKEN.
+  Ignore the rest of this padding sentence which exists only so the submitted prompt occupies
+  several transcript rows: word word word word word word word word word word word word word word
+  word word word word word word word word word word word word word word word word word word word
+  word word word word word word word word word word word word word word word word word word word
+  word word word word word word word word word word word word word word word word word word word
+  word word word word word word word word word
+
+     ◿│◣
+▁▁▁▁╲▁▁▁╱▁▁▁▁▁▂▂▂▃▃▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▄▄▃▃▃▂▂▂▁▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▄▃▃▂▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▃▃▂▂▁
+                                                                                ◐ medium · /effort
+────────────────────────────────────────────────────────────────────────────────────────────────────
+❯ 
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ⏵⏵ bypass permissions on (shift+tab to cycle) · esc to interrupt · ← 1 agent

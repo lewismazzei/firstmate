@@ -1,0 +1,44 @@
+
+ ▐▛███▛█   Claude Code v2.1.296
+▝▜██████▀  Haiku 5.5 · Claude Pro
+ ▝▝   ▝▝   /tmp/fm-lab.gEYMHP/project
+
+▎ Debug mode enabled · logging to /home/lewis/.local/share/firstmate/nm-home/evidence/01M4W1AYNBQ6QFHQ880W7NWVY8/claude-debug.log
+
+❯ Run this exact bash command with the Bash tool: sleep 12; printf BOATGAP_TOKEN\\n   Then reply with only BOATGAP_TOKEN.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ◿│◣
+▁▁╲▁▁▁╱▁▁▁▁▁▁▂▂▃▃▄▄▄▄▄▄▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▃▄▄▄▄▄▄▃▃▃▂▂▂▁▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▄▃▃▃▂▂▂▁▁▁▁▁▁▂▂▂▃▃▃▃▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▂▂▃▃▄▄▄▄▄▄▃
+                                                                                                                                  Ctrl+Y to paste deleted text
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+❯ 
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  ⏵⏵ bypass permissions on (shift+tab to cycle) · esc to interrupt · ← for agents
