@@ -1,0 +1,7 @@
+y=18 blanks=3
+y=17 blanks=2
+y=16 blanks=1
+y=15 blanks=0
+y=14 blanks=0
+y=13 blanks=0
+best_y=13

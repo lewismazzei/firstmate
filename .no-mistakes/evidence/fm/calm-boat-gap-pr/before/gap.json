@@ -1,0 +1,26 @@
+{
+  "label": "before",
+  "sail_line": 6,
+  "hull_line": 7,
+  "prompt_line": 5,
+  "blank_lines_between_prompt_and_sail": 0,
+  "nonblank_between_prompt_and_sail": [],
+  "last_nonempty_above_sail": 5,
+  "blank_lines_above_sail": 0,
+  "sail_row": "   ◿│◣",
+  "hull_row": "▁▁╲▁▁▁╱▁▁▁▁▁▁▂▂▃▃▄▄▄▄▄▄▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▃▄▄▄▄▄▄▃▃▃▂▂▂▁▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▃▃▃▂▂▁▁",
+  "prompt_row": "❯ Run this exact bash command with the Bash tool: sleep 20; echo CALM_GAP_PROBE                     ",
+  "above_row": "❯ Run this exact bash command with the Bash tool: sleep 20; echo CALM_GAP_PROBE                     ",
+  "window": [
+    "▝▜██████▀  Haiku 5.5 · Claude Pro",
+    " ▝▝   ▝▝   /tmp/fm-lab.qibymK/before-project",
+    "",
+    "▎ Debug mode enabled · logging to /tmp/fm-lab.qibymK/debug-before.log",
+    "",
+    "❯ Run this exact bash command with the Bash tool: sleep 20; echo CALM_GAP_PROBE                     ",
+    "   ◿│◣",
+    "▁▁╲▁▁▁╱▁▁▁▁▁▁▂▂▃▃▄▄▄▄▄▄▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▃▄▄▄▄▄▄▃▃▃▂▂▂▁▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▃▃▃▂▂▁▁",
+    "                                                                                ◐ medium · /effort",
+    "────────────────────────────────────────────────────────────────────────────────────────────────────"
+  ]
+}

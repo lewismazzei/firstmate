@@ -1,0 +1,13 @@
+ ▝▝   ▝▝   /tmp/fm-lab.qibymK/after-project
+
+▎ Debug mode enabled · logging to /tmp/fm-lab.qibymK/debug-after.log
+
+❯ Run this exact bash command with the Bash tool: sleep 20; echo CALM_GAP_PROBE                     
+
+   ◿│◣
+▁▁╲▁▁▁╱▁▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▃▃▂▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▄▃▃▃▂▂▂▁▁▁▁▁▁▂▂▂▃▃▄▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▄▃▃▂▂▁▁
+                                                                                ◐ medium · /effort
+────────────────────────────────────────────────────────────────────────────────────────────────────
+❯ 
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ⏵⏵ bypass permissions on (shift+tab to cycle) · esc to interrupt · ← for agents

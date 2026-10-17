@@ -1,0 +1,302 @@
+2026-10-15T22:34:42.906Z [DEBUG] MDM settings load completed in 0ms
+2026-10-15T22:34:42.923Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /etc/claude-code/managed-settings.json
+2026-10-15T22:34:42.927Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/fm-lab.Vndk7S/after-project/.claude/settings.json
+2026-10-15T22:34:42.929Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/fm-lab.Vndk7S/after-project/.claude/settings.local.json
+2026-10-15T22:34:42.931Z [DEBUG] CA certs: Config fallback - globalEnv keys: , settingsEnv keys: none
+2026-10-15T22:34:42.936Z [DEBUG] [init] configureGlobalMTLS starting
+2026-10-15T22:34:42.936Z [DEBUG] [init] configureGlobalMTLS complete
+2026-10-15T22:34:42.936Z [DEBUG] [init] configureGlobalAgents starting
+2026-10-15T22:34:42.936Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-10-15T22:34:42.937Z [DEBUG] CA certs: Loaded 121 bundled root certificates
+2026-10-15T22:34:42.949Z [DEBUG] CA certs: Loaded 121 system CA certificates
+2026-10-15T22:34:42.950Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-10-15T22:34:42.950Z [DEBUG] [init] configureGlobalAgents complete
+2026-10-15T22:34:42.956Z [DEBUG] Git remote URL: null
+2026-10-15T22:34:42.956Z [DEBUG] No git remote URL found
+2026-10-15T22:34:42.960Z [DEBUG] Error log sink initialized
+2026-10-15T22:34:43.025Z [DEBUG] [ToolSearch:optimistic] mode=tst, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-10-15T22:34:43.028Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-10-15T22:34:43.033Z [DEBUG] [STARTUP] Running setup()...
+2026-10-15T22:34:43.058Z [DEBUG] Loading skills from: managed=/etc/claude-code/.claude/skills, user=/home/lewis/.claude/skills, project=[/tmp/fm-lab.Vndk7S/after-project/.claude/skills]
+2026-10-15T22:34:43.065Z [DEBUG] Failed to stat directory /etc/claude-code/.claude/agents: ENOENT: no such file or directory, stat '/etc/claude-code/.claude/agents'
+2026-10-15T22:34:43.070Z [DEBUG] Loaded 2 installed plugins from /home/lewis/.claude/plugins/installed_plugins.json
+2026-10-15T22:34:43.071Z [DEBUG] Failed to stat directory /etc/claude-code/.claude/commands: ENOENT: no such file or directory, stat '/etc/claude-code/.claude/commands'
+2026-10-15T22:34:43.076Z [DEBUG] Loaded 0 unique skills (0 unconditional, 0 conditional, managed: 0, user: 0, project: 0, additional: 0, legacy commands: 0)
+2026-10-15T22:34:43.080Z [DEBUG] Found 5 plugins (4 enabled, 1 disabled)
+2026-10-15T22:34:43.083Z [DEBUG] getPluginSkills: Processing 4 enabled plugins
+2026-10-15T22:34:43.083Z [DEBUG] Checking plugin cc-plugin-agents-md: skillsPath=none, skillsPaths=0 paths
+2026-10-15T22:34:43.083Z [DEBUG] Checking plugin cc-plugin-telemetry: skillsPath=none, skillsPaths=0 paths
+2026-10-15T22:34:43.083Z [DEBUG] Checking plugin cc-plugin-plugin-authoring: skillsPath=none, skillsPaths=0 paths
+2026-10-15T22:34:43.084Z [DEBUG] Checking plugin cc-plugin-diff: skillsPath=none, skillsPaths=0 paths
+2026-10-15T22:34:43.084Z [DEBUG] Total plugin workflows loaded: 0
+2026-10-15T22:34:43.085Z [DEBUG] Total plugin commands loaded: 0
+2026-10-15T22:34:43.087Z [DEBUG] Total plugin skills loaded: 0 (0 duplicate/user-owned entries skipped)
+2026-10-15T22:34:43.088Z [DEBUG] Total plugin agents loaded: 0
+2026-10-15T22:34:43.092Z [DEBUG] [Claude in Chrome] Extension not found in any browser
+2026-10-15T22:34:43.100Z [INFO] [uds-messaging] Listening: /run/user/1001/cc-socks/996292.sock
+2026-10-15T22:34:43.107Z [INFO] [uds-messaging] Inject messages (auth line optional here): { echo '{"type":"auth","token":"[REDACTED]"$CLAUDE_CODE_MESSAGING_TOKEN"'"}'; echo '{"type":"user","message":{"role":"user","content":"hello"}}'; } | socat - UNIX-CONNECT:/run/user/1001/cc-socks/996292.sock
+2026-10-15T22:34:43.117Z [INFO] [uds-messaging] Connect when the data is ready (e.g. out=$(cmd); printf '%s\n' "$out" | nc -N -U "$CLAUDE_CODE_MESSAGING_SOCKET" — or the socat form above): a connection that sends no complete line within 30000 ms is closed
+2026-10-15T22:34:43.124Z [DEBUG] Error log sink initialized
+2026-10-15T22:34:43.132Z [DEBUG] hooks modules not loaded until workspace trust is accepted: cc-plugin-agents-md, cc-plugin-telemetry, cc-plugin-plugin-authoring, cc-plugin-diff
+2026-10-15T22:34:43.132Z [DEBUG] Registered 0 hooks from 4 plugins
+2026-10-15T22:34:43.135Z [DEBUG] Acquired PID lock for 2.1.301 (PID 996292)
+2026-10-15T22:34:43.136Z [DEBUG] Acquired PID lock on running version: /home/lewis/.local/share/claude/versions/2.1.301
+2026-10-15T22:34:43.144Z [DEBUG] [STARTUP] setup() completed in 111ms
+2026-10-15T22:34:43.149Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-10-15T22:34:43.159Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills, 39 bundled skills, 1 builtin plugin skills
+2026-10-15T22:34:43.166Z [DEBUG] Artifact gates frozen: capabilities=true comments=true db=true files=true types=true type_create=true type_catalog=true read_page_data=false room=false verify=false delete=true preview=false preview_browser=unread open=true endpoints=false pin=true share=false versions=false flag_source=disk gb_fresh=false
+2026-10-15T22:34:43.175Z [DEBUG] [STARTUP] Commands and agents loaded in 26ms
+2026-10-15T22:34:43.185Z [DEBUG] [servedCatalog] primary: using served rows (12 rows via cache over the org route, fetched 126s ago); the served list replaces the compiled picker for this session
+2026-10-15T22:34:43.192Z [DEBUG] nonBlockingStdout: active
+2026-10-15T22:34:43.195Z [DEBUG] [STARTUP] Running showSetupScreens()...
+2026-10-15T22:34:43.203Z [DEBUG] [keybindings] Loaded 4 user bindings from /home/lewis/.claude/keybindings.json
+2026-10-15T22:34:43.205Z [DEBUG] [keybindings] KeybindingSetup initialized with 228 bindings, 0 warnings
+2026-10-15T22:34:43.229Z [DEBUG] [keybindings] Watching for changes to /home/lewis/.claude/keybindings.json
+2026-10-15T22:34:43.249Z [DEBUG] XTVERSION: terminal identified as "tmux 3.4"
+2026-10-15T22:34:43.251Z [DEBUG] Terminal capabilities: extendedKeys=yes (env: terminal=tmux); synchronizedOutput=no (env: TMUX (tmux answers for itself), no answer); kittyKeyboard=no (probe: no reply to CSI ? u); kittyGraphics=no (env: inside tmux or screen); mousePixels=no (env: inside tmux or screen); programStatus=no (probe: no reply to OSC 7501 ; ?); terminal said: no reply to CSI ? u; no reply to DECRQM 2026
+2026-10-15T22:34:43.251Z [DEBUG] DECSTBM: gated (TMUX=set ZELLIJ=unset TERM_PROGRAM=tmux TERM=xterm-256color)
+2026-10-15T22:34:43.718Z [DEBUG] clearPluginCache: invalidating loadAllPlugins cache (post-trust: re-discover project @skills-dir plugins)
+2026-10-15T22:34:43.726Z [DEBUG] Full reset (shrink->below): prevHeight=18, nextHeight=0, viewport=18
+2026-10-15T22:34:43.759Z [DEBUG] Read hooks.json for plugin fm (enabled=true): /tmp/fm-lab.Vndk7S/after-project/.claude/skills/firstmate-calm/hooks/hooks.json
+2026-10-15T22:34:43.763Z [DEBUG] Preserving file permissions: 100600
+2026-10-15T22:34:43.763Z [DEBUG] Writing to temp file: /home/lewis/.claude.json.tmp.996292.051d7b1d074c
+2026-10-15T22:34:43.766Z [DEBUG] Loaded 1 skills-as-plugins
+2026-10-15T22:34:43.768Z [DEBUG] Found 6 plugins (5 enabled, 1 disabled)
+2026-10-15T22:34:43.773Z [DEBUG] cc-plugin-sec-default@builtin not seated: no managed settings and not a Team or Enterprise organization (pro)
+2026-10-15T22:34:43.777Z [DEBUG] Applied original permissions to temp file
+2026-10-15T22:34:43.784Z [DEBUG] Temp file written successfully, size: 111670 bytes
+2026-10-15T22:34:43.785Z [DEBUG] Renaming /home/lewis/.claude.json.tmp.996292.051d7b1d074c to /home/lewis/.claude.json
+2026-10-15T22:34:43.785Z [DEBUG] File /home/lewis/.claude.json written atomically
+2026-10-15T22:34:43.848Z [DEBUG] Cleared mTLS configuration cache
+2026-10-15T22:34:43.848Z [DEBUG] Cleared proxy agent cache
+2026-10-15T22:34:43.848Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-10-15T22:34:43.849Z [DEBUG] Grove: Using fresh cached config
+2026-10-15T22:34:43.887Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-10-15T22:34:43.887Z [DEBUG] [3P telemetry] isTelemetryEnabled=false (CLAUDE_CODE_ENABLE_TELEMETRY=undefined)
+2026-10-15T22:34:43.891Z [DEBUG] [keybindings] KeybindingSetup initialized with 228 bindings, 0 warnings
+2026-10-15T22:34:43.893Z [DEBUG] Git remote URL: null
+2026-10-15T22:34:43.893Z [DEBUG] No git remote URL found
+2026-10-15T22:34:43.894Z [DEBUG] Not in a GitHub repository, skipping path mapping update
+2026-10-15T22:34:44.003Z [DEBUG] plugin cc-plugin-agents-md: no pluginConfigs["agents-md@builtin" or "cc-plugin-agents-md@builtin"].options in user, --settings or managed settings (project settings are not read); every option is its default
+2026-10-15T22:34:44.004Z [DEBUG] cc-plugin-telemetry: hooks telemetry for: anthropic, collector
+2026-10-15T22:34:44.007Z [DEBUG] hooks worker spawned (one for every plugin)
+2026-10-15T22:34:44.009Z [DEBUG] XTVERSION: terminal identified as "tmux 3.4"
+2026-10-15T22:34:44.011Z [DEBUG] Terminal capabilities: extendedKeys=yes (env: terminal=tmux); synchronizedOutput=no (env: TMUX (tmux answers for itself), no answer); kittyKeyboard=no (probe: no reply to CSI ? u); kittyGraphics=no (env: inside tmux or screen); mousePixels=no (env: inside tmux or screen); programStatus=no (probe: no reply to OSC 7501 ; ?); terminal said: CSI ? u not asked; no reply to DECRQM 2026
+2026-10-15T22:34:44.011Z [DEBUG] DECSTBM: gated (TMUX=set ZELLIJ=unset TERM_PROGRAM=tmux TERM=xterm-256color)
+2026-10-15T22:34:44.118Z [DEBUG] Preserving file permissions: 100600
+2026-10-15T22:34:44.119Z [DEBUG] Writing to temp file: /home/lewis/.claude.json.tmp.996292.4c246fdae967
+2026-10-15T22:34:44.120Z [DEBUG] Applied original permissions to temp file
+2026-10-15T22:34:44.122Z [DEBUG] Temp file written successfully, size: 111670 bytes
+2026-10-15T22:34:44.123Z [DEBUG] Renaming /home/lewis/.claude.json.tmp.996292.4c246fdae967 to /home/lewis/.claude.json
+2026-10-15T22:34:44.123Z [DEBUG] File /home/lewis/.claude.json written atomically
+2026-10-15T22:34:44.145Z [DEBUG] hooks module fm@skills-dir loaded (worker, environment 1, tier user); events: session.start,command.run,config.set,turn.step,ui.render
+2026-10-15T22:34:44.150Z [DEBUG] hooks module cc-plugin-agents-md@builtin loaded (native, environment 2, tier builtin); events: session.start,prompt.context,command.run,session.compact,prompt.submit,turn.start,turn.complete,agent.spawn,tool.call,prompt.mention
+2026-10-15T22:34:44.153Z [DEBUG] hooks module cc-plugin-telemetry@builtin loaded (native, environment 3, tier builtin); events: telemetry.*,telemetry.log,telemetry.mark,session.start,session.end,engine.create
+2026-10-15T22:34:44.156Z [DEBUG] hooks module cc-plugin-plugin-authoring@builtin loaded (native, environment 4, tier builtin); events: skill.prompt,tool.check,tool.call
+2026-10-15T22:34:44.160Z [DEBUG] hooks module cc-plugin-diff@builtin loaded (native, environment 5, tier builtin); events: session.start,ui.render,command.run,ui.close,ui.focus,ui.scroll,tool.call,prompt.submit
+2026-10-15T22:34:44.164Z [DEBUG] hooks module cc-plugin-telemetry@builtin engine.create settled in 2.3ms (native hop, next() included)
+2026-10-15T22:34:44.167Z [DEBUG] engine.create: no plugin-provided interfaces; $ built for fm,cc-plugin-agents-md,cc-plugin-telemetry,cc-plugin-plugin-authoring,cc-plugin-diff
+2026-10-15T22:34:44.169Z [DEBUG] plugin.register: cc-plugin-agents-md (builtin, cc-plugin-agents-md@builtin), judged by core alone: admitted
+2026-10-15T22:34:44.169Z [DEBUG] plugin.register: cc-plugin-telemetry (builtin, cc-plugin-telemetry@builtin), judged by core alone: admitted
+2026-10-15T22:34:44.170Z [DEBUG] plugin.register: cc-plugin-plugin-authoring (builtin, cc-plugin-plugin-authoring@builtin), judged by core alone: admitted
+2026-10-15T22:34:44.170Z [DEBUG] plugin.register: cc-plugin-diff (builtin, cc-plugin-diff@builtin), judged by core alone: admitted
+2026-10-15T22:34:44.170Z [DEBUG] plugin.register: fm (user, fm@skills-dir), judged by core alone: admitted
+2026-10-15T22:34:44.182Z [DEBUG] Registered 0 hooks from 5 plugins
+2026-10-15T22:34:44.234Z [DEBUG] [STARTUP] showSetupScreens() completed in 1039ms
+2026-10-15T22:34:44.237Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-10-15T22:34:44.237Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-10-15T22:34:44.237Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-10-15T22:34:44.238Z [DEBUG] Starting background startup prefetches
+2026-10-15T22:34:44.239Z [DEBUG] [Bootstrap] Fetching
+2026-10-15T22:34:44.243Z [DEBUG] Passes: Using fresh cached eligibility data
+2026-10-15T22:34:44.250Z [DEBUG] [STARTUP] MCP configs resolved in 16ms (awaited at +1222ms)
+2026-10-15T22:34:44.263Z [DEBUG] Replacing all allow rules for destination 'userSettings' with 0 rule(s): []
+2026-10-15T22:34:44.264Z [DEBUG] Replacing all deny rules for destination 'userSettings' with 0 rule(s): []
+2026-10-15T22:34:44.264Z [DEBUG] Replacing all ask rules for destination 'userSettings' with 0 rule(s): []
+2026-10-15T22:34:44.264Z [DEBUG] Replacing all allow rules for destination 'projectSettings' with 0 rule(s): []
+2026-10-15T22:34:44.264Z [DEBUG] Replacing all deny rules for destination 'projectSettings' with 0 rule(s): []
+2026-10-15T22:34:44.264Z [DEBUG] Replacing all ask rules for destination 'projectSettings' with 0 rule(s): []
+2026-10-15T22:34:44.264Z [DEBUG] Replacing all allow rules for destination 'localSettings' with 0 rule(s): []
+2026-10-15T22:34:44.264Z [DEBUG] Replacing all deny rules for destination 'localSettings' with 0 rule(s): []
+2026-10-15T22:34:44.264Z [DEBUG] Replacing all ask rules for destination 'localSettings' with 0 rule(s): []
+2026-10-15T22:34:44.264Z [DEBUG] Replacing all allow rules for destination 'flagSettings' with 0 rule(s): []
+2026-10-15T22:34:44.265Z [DEBUG] Replacing all deny rules for destination 'flagSettings' with 0 rule(s): []
+2026-10-15T22:34:44.265Z [DEBUG] Replacing all ask rules for destination 'flagSettings' with 0 rule(s): []
+2026-10-15T22:34:44.265Z [DEBUG] Replacing all allow rules for destination 'policySettings' with 0 rule(s): []
+2026-10-15T22:34:44.265Z [DEBUG] Replacing all deny rules for destination 'policySettings' with 0 rule(s): []
+2026-10-15T22:34:44.265Z [DEBUG] Replacing all ask rules for destination 'policySettings' with 0 rule(s): []
+2026-10-15T22:34:44.274Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-10-15T22:34:44.276Z [DEBUG] [3P telemetry] Event dropped (no event logger initialized): managed_settings_resolved
+2026-10-15T22:34:44.279Z [DEBUG] All plugins already exist, skipping migration
+2026-10-15T22:34:44.279Z [DEBUG] Initialized versioned plugins system with 2 plugins
+2026-10-15T22:34:44.330Z [DEBUG] hooks module cc-plugin-telemetry@builtin telemetry.log settled in 54.4ms (native link, next() included)
+2026-10-15T22:34:44.332Z [DEBUG] Total LSP servers loaded: 0
+2026-10-15T22:34:44.332Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-10-15T22:34:44.332Z [DEBUG] LSP manager initialized with 0 servers
+2026-10-15T22:34:44.333Z [DEBUG] LSP server manager initialized successfully
+2026-10-15T22:34:44.334Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-10-15T22:34:44.342Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=1200e54c-cdcd-45bc-b810-e0ca5a8caccb source=quota_check
+2026-10-15T22:34:44.385Z [DEBUG] hooks module cc-plugin-telemetry@builtin telemetry.log settled in 1.5ms (native link, next() included)
+2026-10-15T22:34:44.386Z [DEBUG] hooks module cc-plugin-telemetry@builtin telemetry.log settled in 0.5ms (native link, next() included)
+2026-10-15T22:34:44.387Z [DEBUG] hooks module cc-plugin-telemetry@builtin telemetry.log settled in 0.3ms (native link, next() included)
+2026-10-15T22:34:44.387Z [DEBUG] hooks module cc-plugin-telemetry@builtin telemetry.log settled in 0.2ms (native link, next() included)
+2026-10-15T22:34:44.387Z [DEBUG] hooks module cc-plugin-telemetry@builtin telemetry.log settled in 0.2ms (native link, next() included)
+2026-10-15T22:34:44.388Z [DEBUG] hooks module cc-plugin-telemetry@builtin telemetry.log settled in 0.2ms (native link, next() included)
+2026-10-15T22:34:44.388Z [DEBUG] hooks module cc-plugin-telemetry@builtin telemetry.log settled in 0.2ms (native link, next() included)
+2026-10-15T22:34:44.389Z [DEBUG] hooks module cc-plugin-telemetry@builtin telemetry.log settled in 0.2ms (native link, next() included)
+2026-10-15T22:34:44.389Z [DEBUG] hooks module cc-plugin-telemetry@builtin telemetry.log settled in 0.2ms (native link, next() included)
+2026-10-15T22:34:44.392Z [DEBUG] Git remote URL: null
+2026-10-15T22:34:44.392Z [DEBUG] No git remote URL found
+2026-10-15T22:34:44.398Z [DEBUG] [sessionRegistry] sweep permitted (domain linux:9826ebde74224366877ce9aac48eb1ab:pid:[4026531836])
+2026-10-15T22:34:44.402Z [DEBUG] Keeping /home/lewis/.claude/plugins/cache/claude-plugins-official/vercel: it still holds a directory, a symlink, a versioned archive or an entry of unknown type
+2026-10-15T22:34:44.402Z [DEBUG] Preserving file permissions: 100600
+2026-10-15T22:34:44.403Z [DEBUG] Writing to temp file: /home/lewis/.claude.json.tmp.996292.f5cb74e6091a
+2026-10-15T22:34:44.403Z [DEBUG] Keeping /home/lewis/.claude/plugins/cache/claude-plugins-official: it still holds a directory, a symlink, a versioned archive or an entry of unknown type
+2026-10-15T22:34:44.404Z [DEBUG] Keeping /home/lewis/.claude/plugins/cache/compact-adviser/compact-adviser: it still holds a directory, a symlink, a versioned archive or an entry of unknown type
+2026-10-15T22:34:44.404Z [DEBUG] Keeping /home/lewis/.claude/plugins/cache/compact-adviser: it still holds a directory, a symlink, a versioned archive or an entry of unknown type
+2026-10-15T22:34:44.408Z [DEBUG] Applied original permissions to temp file
+2026-10-15T22:34:44.412Z [DEBUG] Ripgrep first use test: PASSED (mode=embedded, path=/home/lewis/.local/share/claude/versions/2.1.301)
+2026-10-15T22:34:44.415Z [DEBUG] Temp file written successfully, size: 111670 bytes
+2026-10-15T22:34:44.415Z [DEBUG] Renaming /home/lewis/.claude.json.tmp.996292.f5cb74e6091a to /home/lewis/.claude.json
+2026-10-15T22:34:44.416Z [DEBUG] File /home/lewis/.claude.json written atomically
+2026-10-15T22:34:44.427Z [DEBUG] Preserving file permissions: 100600
+2026-10-15T22:34:44.427Z [DEBUG] Writing to temp file: /home/lewis/.claude.json.tmp.996292.a01084961b46
+2026-10-15T22:34:44.428Z [DEBUG] Applied original permissions to temp file
+2026-10-15T22:34:44.430Z [DEBUG] Temp file written successfully, size: 111836 bytes
+2026-10-15T22:34:44.430Z [DEBUG] Renaming /home/lewis/.claude.json.tmp.996292.a01084961b46 to /home/lewis/.claude.json
+2026-10-15T22:34:44.431Z [DEBUG] File /home/lewis/.claude.json written atomically
+2026-10-15T22:34:44.511Z [DEBUG] [keybindings] KeybindingSetup initialized with 228 bindings, 0 warnings
+2026-10-15T22:34:44.548Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-10-15T22:34:44.594Z [DEBUG] [engine] send set_max_thinking_tokens max=null
+2026-10-15T22:34:44.595Z [DEBUG] [engine] send set_model model=claude-haiku-5-5
+2026-10-15T22:34:44.605Z [DEBUG] prompt.edit: unhooked; the composer relays nothing
+2026-10-15T22:34:44.622Z [DEBUG] performStartupChecks called
+2026-10-15T22:34:44.635Z [DEBUG] [jobStateNameSync] watch skipped: Error: ENOENT: no such file or directory, watch '/home/lewis/.claude/jobs/26ec7bb9'
+2026-10-15T22:34:44.645Z [DEBUG] [REPL:mount] REPL mounted, disabled=false
+2026-10-15T22:34:44.647Z [DEBUG] Official marketplace auto-install skipped: already_installed
+2026-10-15T22:34:44.653Z [DEBUG] [ScheduledTasks] scheduler start() — enabled=false, hasTasks=false
+2026-10-15T22:34:44.655Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/fm-lab.Vndk7S/after-project/.claude/settings.json
+2026-10-15T22:34:44.656Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /tmp/fm-lab.Vndk7S/after-project/.claude/settings.local.json
+2026-10-15T22:34:44.657Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /etc/claude-code/managed-settings.json
+2026-10-15T22:34:44.694Z [DEBUG] plugin-dir watch: watching fm; folders of plugins none
+2026-10-15T22:34:44.725Z [DEBUG] Starting background plugin installations
+2026-10-15T22:34:44.726Z [DEBUG] session.start: raised (surface terminal, interactive)
+2026-10-15T22:34:44.737Z [DEBUG] [servedCatalog] shadow compare logged (fetch=cache_fresh, rows=12, source=served)
+2026-10-15T22:34:44.738Z [DEBUG] [servedCatalog] primary: served list replaces the compiled picker; every compiled row is served
+2026-10-15T22:34:44.740Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills, 39 bundled skills, 1 builtin plugin skills
+2026-10-15T22:34:44.741Z [DEBUG] [auto-mode] verifyAutoModeGateAccess: enabledState=enabled disabledBySettings=false model=claude-haiku-5-5 modelSupported=true disableFastModeBreakerFires=false carouselAvailable=true canEnterAuto=true
+2026-10-15T22:34:44.742Z [DEBUG] performBackgroundPluginInstallations called
+2026-10-15T22:34:44.761Z [DEBUG] [event-loop-stall] detector started (interval=200ms, threshold=500ms)
+2026-10-15T22:34:44.771Z [DEBUG] hooks module cc-plugin-diff@builtin ui.render settled in 86.4ms (native link, next() included)
+2026-10-15T22:34:44.782Z [DEBUG] [claudeai-mcp] Fetching from https://api.anthropic.com/v1/mcp_servers?limit=1000&include_additional_installs=true
+2026-10-15T22:34:44.782Z [DEBUG] mcp runtime arm: v2 (source: growthbook)
+2026-10-15T22:34:44.803Z [DEBUG] [sessionRegistry] sweep permitted (domain linux:9826ebde74224366877ce9aac48eb1ab:pid:[4026531836])
+2026-10-15T22:34:44.840Z [DEBUG] memory index backfill: ENOENT: no such file or directory, scandir '/home/lewis/.claude/projects/-tmp-fm-lab-Vndk7S-after-project/memory/'
+2026-10-15T22:34:44.845Z [DEBUG] No CLAUDE.md/rules files found
+2026-10-15T22:34:44.936Z [DEBUG] Failed to stat directory /etc/claude-code/.claude/skills: ENOENT: no such file or directory, stat '/etc/claude-code/.claude/skills'
+2026-10-15T22:34:44.937Z [DEBUG] Lock acquisition took longer than expected - another Claude instance may be running
+2026-10-15T22:34:44.945Z [DEBUG] Watching for changes in skill/command directories: /home/lewis/.claude/skills, /home/lewis/.claude/skills/synced, /tmp/fm-lab.Vndk7S/after-project/.claude/skills...
+2026-10-15T22:34:44.984Z [DEBUG] [FileIndex] getProjectFiles called, respectGitignore=true
+2026-10-15T22:34:44.984Z [DEBUG] [FileIndex] getFilesUsingGit called
+2026-10-15T22:34:44.984Z [DEBUG] [FileIndex] not a git repo, returning null
+2026-10-15T22:34:44.985Z [DEBUG] [FileIndex] git ls-files returned null, falling back to ripgrep
+2026-10-15T22:34:45.065Z [DEBUG] Watching for changes in setting files /home/lewis/.claude/settings.json, /tmp/fm-lab.Vndk7S/after-project/.claude/settings.json, /tmp/fm-lab.Vndk7S/after-project/.claude/settings.local.json...
+2026-10-15T22:34:45.072Z [DEBUG] Preserving file permissions: 100600
+2026-10-15T22:34:45.072Z [DEBUG] Writing to temp file: /home/lewis/.claude.json.tmp.996292.76c254f9e2fc
+2026-10-15T22:34:45.073Z [DEBUG] Failed to stat directory /etc/claude-code/.claude/output-styles: ENOENT: no such file or directory, stat '/etc/claude-code/.claude/output-styles'
+2026-10-15T22:34:45.074Z [DEBUG] Failed to stat directory /etc/claude-code/.claude/workflows: ENOENT: no such file or directory, stat '/etc/claude-code/.claude/workflows'
+2026-10-15T22:34:45.075Z [DEBUG] Failed to stat directory /etc/claude-code/.claude/routines: ENOENT: no such file or directory, stat '/etc/claude-code/.claude/routines'
+2026-10-15T22:34:45.077Z [DEBUG] Org fast mode: disabled (extra_usage_disabled)
+2026-10-15T22:34:45.081Z [DEBUG] [Bootstrap] Fetch ok
+2026-10-15T22:34:45.083Z [DEBUG] [Bootstrap] Cache unchanged, skipping write
+2026-10-15T22:34:45.100Z [DEBUG] $.fs.ancestors (cc-plugin-agents-md): CLAUDE.md, .claude/CLAUDE.md, CLAUDE.local.md found 0 of 3 directories
+2026-10-15T22:34:45.103Z [DEBUG] Applied original permissions to temp file
+2026-10-15T22:34:45.111Z [DEBUG] Loaded plugins - Enabled: 5, Disabled: 1, Commands: 0, Agents: 0, Errors: 0
+2026-10-15T22:34:45.151Z [DEBUG] Fast mode unavailable: Fast mode requires usage credits · /usage-credits to turn them on
+2026-10-15T22:34:45.180Z [DEBUG] [FileIndex] ripgrep: 14 files in 195ms
+2026-10-15T22:34:45.182Z [DEBUG] XTVERSION: terminal identified as "tmux 3.4"
+2026-10-15T22:34:45.187Z [DEBUG] [FileIndex] cache refresh completed in 203ms
+2026-10-15T22:34:45.188Z [DEBUG] Temp file written successfully, size: 111909 bytes
+2026-10-15T22:34:45.188Z [DEBUG] Renaming /home/lewis/.claude.json.tmp.996292.76c254f9e2fc to /home/lewis/.claude.json
+2026-10-15T22:34:45.195Z [DEBUG] File /home/lewis/.claude.json written atomically
+2026-10-15T22:34:45.196Z [DEBUG] $.fs.ancestors (cc-plugin-agents-md): AGENTS.md, .claude/AGENTS.md found 0 of 3 directories
+2026-10-15T22:34:45.199Z [DEBUG] hooks module cc-plugin-telemetry@builtin (native): telemetry.log nested in cc-plugin-agents-md#1
+2026-10-15T22:34:45.204Z [DEBUG] hooks module cc-plugin-telemetry@builtin (native): telemetry.mark nested in cc-plugin-agents-md#1
+2026-10-15T22:34:45.205Z [DEBUG] hooks module cc-plugin-telemetry@builtin telemetry.log settled in 5.6ms (native link, next() included)
+2026-10-15T22:34:45.205Z [DEBUG] hooks module cc-plugin-telemetry@builtin telemetry.mark settled in 1.3ms (native link, next() included)
+2026-10-15T22:34:45.206Z [DEBUG] cc-plugin-telemetry (builtin) answered telemetry.log without next() in 6.4ms; nothing beneath it ran for this dispatch
+2026-10-15T22:34:45.206Z [DEBUG] cc-plugin-telemetry (builtin) answered telemetry.mark without next() in 2.1ms; nothing beneath it ran for this dispatch
+2026-10-15T22:34:45.206Z [DEBUG] hooks module cc-plugin-agents-md@builtin prompt.context settled in 335.2ms (native link, next() included)
+2026-10-15T22:34:45.240Z [DEBUG] Artifact publish edits offer frozen: edit_hook=false
+2026-10-15T22:34:45.241Z [DEBUG] Artifact input schema built: assets=true copy_from=true publish_edits=true assets_source=disk
+2026-10-15T22:34:45.296Z [DEBUG] $.process.run (cc-plugin-telemetry): sh with 2 args in /tmp/fm-lab.Vndk7S/after-project (pid 996451)
+2026-10-15T22:34:45.360Z [DEBUG] Terminal capabilities: extendedKeys=yes (env: terminal=tmux); synchronizedOutput=no (env: TMUX (tmux answers for itself), no answer); kittyKeyboard=no (probe: no reply to CSI ? u); kittyGraphics=no (env: inside tmux or screen); mousePixels=no (env: inside tmux or screen); programStatus=no (probe: no reply to OSC 7501 ; ?); terminal said: CSI ? u not asked; no reply to DECRQM 2026
+2026-10-15T22:34:45.360Z [DEBUG] DECSTBM: gated (TMUX=set ZELLIJ=unset TERM_PROGRAM=tmux TERM=xterm-256color)
+2026-10-15T22:34:45.361Z [DEBUG] $.process.run (cc-plugin-telemetry): sh exited 0 in 69ms, 46 + 0 chars
+2026-10-15T22:34:45.366Z [DEBUG] $.fs.read (cc-plugin-telemetry): /sys/hypervisor/uuid failed: ENOENT: no such file or directory, open '/sys/hypervisor/uuid'
+2026-10-15T22:34:45.385Z [DEBUG] $.command.register (fm): /calm listed
+2026-10-15T22:34:45.403Z [DEBUG] hooks module cc-plugin-telemetry@builtin (native): telemetry.log nested in cc-plugin-agents-md#0
+2026-10-15T22:34:45.409Z [DEBUG] $.command.register (cc-plugin-diff): /diff listed
+2026-10-15T22:34:45.410Z [DEBUG] hooks module cc-plugin-telemetry@builtin telemetry.log settled in 6.9ms (native link, next() included)
+2026-10-15T22:34:45.420Z [DEBUG] hooks module cc-plugin-diff@builtin session.start settled in 19.4ms (native link, next() included)
+2026-10-15T22:34:45.420Z [DEBUG] hooks module cc-plugin-telemetry@builtin session.start settled in 20.2ms (native link, next() included)
+2026-10-15T22:34:45.420Z [DEBUG] hooks module cc-plugin-agents-md@builtin session.start settled in 21.0ms (native link, next() included)
+2026-10-15T22:34:45.423Z [DEBUG] hooks module fm@skills-dir session.start settled in 695.6ms (worker hop, next() included)
+2026-10-15T22:34:45.457Z [DEBUG] [claudeai-mcp] Fetched 1 servers
+2026-10-15T22:34:45.505Z [DEBUG] MCP server "claude.ai Claude Docs": Initializing claude.ai proxy transport for server mcpsrv_014Fj7srWvLMyCuRCS8J9W3d
+2026-10-15T22:34:45.506Z [DEBUG] MCP server "claude.ai Claude Docs": Using claude.ai proxy at https://mcp-proxy.anthropic.com/v1/mcp/mcpsrv_014Fj7srWvLMyCuRCS8J9W3d
+2026-10-15T22:34:45.507Z [DEBUG] MCP server "claude.ai Claude Docs": GET notification stream disabled for claude.ai connectors; a GET the SDK sends to the proxy URL is answered locally with 405
+2026-10-15T22:34:45.507Z [DEBUG] MCP server "claude.ai Claude Docs": claude.ai proxy transport created successfully
+2026-10-15T22:34:45.511Z [DEBUG] MCP server "claude.ai Claude Docs": Starting connection with timeout of 30000ms
+2026-10-15T22:34:45.620Z [DEBUG] [mcp-registry] Loaded 294 official MCP URLs (legacy)
+2026-10-15T22:34:45.642Z [DEBUG] [fs.watch probe] verdict: delivers
+2026-10-15T22:34:45.820Z [DEBUG] hooks module cc-plugin-diff@builtin ui.render settled in 7.6ms (native link, next() included)
+2026-10-15T22:34:45.820Z [DEBUG] hooks module cc-plugin-diff@builtin ui.render settled in 3.9ms (native link, next() included)
+2026-10-15T22:34:46.078Z [DEBUG] MCP server "claude.ai Claude Docs": Successfully connected (transport: claudeai-proxy) in 574ms
+2026-10-15T22:34:46.079Z [DEBUG] MCP server "claude.ai Claude Docs": no auto-opened subscriptions/listen on a modern connection; running the listen open through the reopen machinery (no-op if the server advertises no listChanged capability)
+2026-10-15T22:34:46.079Z [DEBUG] MCP server "claude.ai Claude Docs": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"hasResourceSubscribe":false,"serverVersion":{"name":"Claude Docs","version":"0.1.0"},"protocolEra":"modern","negotiatedProtocolVersion":"2026-07-28"}
+2026-10-15T22:34:46.079Z [DEBUG] [MCP] Server "claude.ai Claude Docs" connected with subscribe=false
+2026-10-15T22:34:46.086Z [DEBUG] hooks module cc-plugin-telemetry@builtin telemetry.log settled in 3.7ms (native link, next() included)
+2026-10-15T22:34:46.111Z [DEBUG] Plugin autoupdate: skipped (auto-updater disabled)
+2026-10-15T22:34:46.123Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-10-15T22:34:46.123Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-10-15T22:34:46.123Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-10-15T22:34:46.130Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-10-15T22:34:46.131Z [DEBUG] Total plugin output styles loaded: 0
+2026-10-15T22:34:46.133Z [DEBUG] Sending 16 skills via attachment (initial)
+2026-10-15T22:34:46.153Z [DEBUG] FileHistory: Added snapshot for 401ecb51-c9b2-4d41-ac9c-e4d68d9a682c, tracking 0 files
+2026-10-15T22:34:46.167Z [DEBUG] act_dont_rederive_arm_active source=growthbook
+2026-10-15T22:34:46.173Z [DEBUG] hooks module cc-plugin-telemetry@builtin telemetry.log settled in 21.7ms (native link, next() included)
+2026-10-15T22:34:46.177Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.301.513; cc_entrypoint=cli; cch=00000;
+2026-10-15T22:34:46.178Z [DEBUG] Fast mode unavailable: Fast mode requires usage credits · /usage-credits to turn them on
+2026-10-15T22:34:46.180Z [DEBUG] Fast mode unavailable: Fast mode requires usage credits · /usage-credits to turn them on
+2026-10-15T22:34:46.182Z [DEBUG] hooks module cc-plugin-agents-md@builtin turn.start settled in 19.1ms (native link, next() included)
+2026-10-15T22:34:46.183Z [DEBUG] hooks module cc-plugin-diff@builtin prompt.submit settled in 34.0ms (native link, next() included)
+2026-10-15T22:34:46.184Z [DEBUG] hooks module cc-plugin-agents-md@builtin prompt.submit settled in 35.6ms (native link, next() included)
+2026-10-15T22:34:46.195Z [DEBUG] [engine] yield system/init (first)
+2026-10-15T22:34:46.195Z [DEBUG] [engine] turn 1 start
+2026-10-15T22:34:46.203Z [DEBUG] autocompact: tokens=[REDACTED] level=ok effectiveWindow=980000
+2026-10-15T22:34:46.213Z [DEBUG] [AdvisorTool] Server-side tool enabled with claude-opus-5-5 as the advisor model
+2026-10-15T22:34:46.224Z [DEBUG] Fast mode unavailable: Fast mode requires usage credits · /usage-credits to turn them on
+2026-10-15T22:34:46.225Z [DEBUG] [API:timing] dispatching to firstParty model=claude-haiku-5-5
+2026-10-15T22:34:46.226Z [DEBUG] [dispatch] sent anthropic-dispatch-id=v2d
+2026-10-15T22:34:46.227Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=4f055524-13a4-4da7-985a-317d4eea21f1 source=generate_session_title
+2026-10-15T22:34:46.241Z [DEBUG] Dynamic tool loading: 0/18 deferred tools included
+2026-10-15T22:34:46.245Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.301.6bf; cc_entrypoint=cli; cch=00000; cc_prompt_id=fff00a21-35d4-4648-9e52-4a95328e03c8; cc_turn_origin=human; cc_prompt_index=1; cc_turn_index=1;
+2026-10-15T22:34:46.246Z [DEBUG] Fast mode unavailable: Fast mode requires usage credits · /usage-credits to turn them on
+2026-10-15T22:34:46.251Z [DEBUG] Fast mode unavailable: Fast mode requires usage credits · /usage-credits to turn them on
+2026-10-15T22:34:46.257Z [DEBUG] Fast mode unavailable: Fast mode requires usage credits · /usage-credits to turn them on
+2026-10-15T22:34:46.264Z [DEBUG] [API:timing] dispatching to firstParty model=claude-haiku-5-5
+2026-10-15T22:34:46.265Z [DEBUG] [dispatch] sent anthropic-dispatch-id=v2d
+2026-10-15T22:34:46.266Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=85b668ed-505e-42ad-9912-d1bf3e960472 source=repl_main_thread
+2026-10-15T22:34:46.304Z [DEBUG] hooks module cc-plugin-diff@builtin ui.render settled in 10.9ms (native link, next() included)
+2026-10-15T22:34:46.305Z [DEBUG] hooks module cc-plugin-diff@builtin ui.render settled in 4.8ms (native link, next() included)
+2026-10-15T22:34:46.311Z [DEBUG] fm (user) answered ui.render without next() in 10.8ms; nothing beneath it ran for this dispatch
+2026-10-15T22:34:46.312Z [DEBUG] hooks module fm@skills-dir ui.render settled in 18.9ms (worker hop, next() included) key=26ec7bb9-196a-4534-82ea-dd0f266fbb2d
+2026-10-15T22:34:46.313Z [DEBUG] hooks module fm@skills-dir ui.render settled in 20.9ms (worker hop, next() included) key=401ecb51-c9b2-4d41-ac9c-e4d68d9a682c
+2026-10-15T22:34:46.339Z [DEBUG] hooks module fm@skills-dir ui.render settled in 3.4ms (worker hop, next() included) key=401ecb51-c9b2-4d41-ac9c-e4d68d9a682c
+2026-10-15T22:34:46.375Z [DEBUG] MCP server "claude.ai Claude Docs": Channel notifications skipped: server did not declare claude/channel capability
+2026-10-15T22:34:46.705Z [DEBUG] Stream started - received first chunk
+2026-10-15T22:34:46.705Z [DEBUG] [API:timing] first byte after 481ms
+2026-10-15T22:34:46.912Z [DEBUG] hooks module cc-plugin-telemetry@builtin telemetry.log settled in 2.5ms (native link, next() included)
+2026-10-15T22:34:46.913Z [DEBUG] hooks module cc-plugin-telemetry@builtin telemetry.log settled in 0.3ms (native link, next() included)

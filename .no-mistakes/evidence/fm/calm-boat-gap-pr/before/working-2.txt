@@ -1,0 +1,13 @@
+▝▜██████▀  Haiku 5.5 · Claude Pro
+ ▝▝   ▝▝   /tmp/fm-lab.qibymK/before-project
+
+▎ Debug mode enabled · logging to /tmp/fm-lab.qibymK/debug-before.log
+
+❯ Run this exact bash command with the Bash tool: sleep 20; echo CALM_GAP_PROBE                     
+    ◿│◣
+▁▁▁╲▁▁▁╱▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▃▃▃▂▂▂▁▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▄▃▃▂▂▁▁
+                                                                                ◐ medium · /effort
+────────────────────────────────────────────────────────────────────────────────────────────────────
+❯ 
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  ⏵⏵ bypass permissions on (shift+tab to cycle) · esc to interrupt · ← for agents

@@ -1,0 +1,26 @@
+{
+  "label": "after",
+  "sail_line": 11,
+  "hull_line": 12,
+  "prompt_line": 7,
+  "blank_lines_between_prompt_and_sail": 3,
+  "nonblank_between_prompt_and_sail": [],
+  "last_nonempty_above_sail": 7,
+  "blank_lines_above_sail": 3,
+  "sail_row": " ◿│◣",
+  "hull_row": "╲▁▁▁╱▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▃▃▃▂▂▂▁▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▄▃▃▂▂▁▁▁▁▁",
+  "prompt_row": "❯ Run this exact bash command with the Bash tool: sleep 12; echo CALM_GAP_PROBE                     ",
+  "above_row": "❯ Run this exact bash command with the Bash tool: sleep 12; echo CALM_GAP_PROBE                     ",
+  "window": [
+    "▎ Debug mode enabled · logging to /tmp/fm-lab.Vndk7S/debug-after.log",
+    "",
+    "❯ Run this exact bash command with the Bash tool: sleep 12; echo CALM_GAP_PROBE                     ",
+    "",
+    "",
+    "",
+    " ◿│◣",
+    "╲▁▁▁╱▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▃▃▃▂▂▂▁▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▄▃▃▂▂▁▁▁▁▁",
+    "                                                                                ◐ medium · /effort",
+    "────────────────────────────────────────────────────────────────────────────────────────────────────"
+  ]
+}
