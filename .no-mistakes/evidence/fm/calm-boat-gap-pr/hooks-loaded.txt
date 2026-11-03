@@ -1,0 +1,5 @@
+231:2026-11-03T07:33:24.459Z [DEBUG] hooks module fm@skills-dir loaded (worker, environment 2, tier user); events: session.start,command.run,config.set,turn.step,ui.render
+522:2026-11-03T07:33:44.211Z [DEBUG] hooks module fm@skills-dir ui.render settled in 12.4ms (worker hop, next() included) key=bff76df8-046f-49fc-9815-cb2a43bd919e
+523:2026-11-03T07:33:44.214Z [DEBUG] hooks module fm@skills-dir ui.render settled in 15.6ms (worker hop, next() included) key=placeholder
+524:2026-11-03T07:33:44.228Z [DEBUG] hooks module fm@skills-dir ui.render settled in 2.7ms (worker hop, next() included) key=placeholder
+554:2026-11-03T07:33:44.478Z [DEBUG] hooks module fm@skills-dir ui.render settled in 89.8ms (worker hop, next() included) key=b8705849-11f3-46fe-8714-62a674423ce6

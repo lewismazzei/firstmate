@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Calm Claude working-boat gap</title>
+<style>
+  body { background:#1b1b1f; color:#e8e6e3; font-family: ui-sans-serif, system-ui, sans-serif; margin: 24px; }
+  h1 { font-size: 20px; font-weight: 650; }
+  h2 { font-size: 15px; margin-top: 28px; color:#c9c4bc; }
+  p { max-width: 78ch; line-height: 1.45; color:#c9c4bc; }
+  .term {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 12px;
+    line-height: 1.35;
+    background: #111114;
+    border: 1px solid #3a3942;
+    border-radius: 8px;
+    padding: 12px 14px;
+    overflow-x: auto;
+    white-space: pre;
+  }
+  .row { min-height: 1.35em; }
+  .prompt { background: #3d2a12; color: #ffd7a8; }
+  .gap { background: #1f3d2a; outline: 1px dashed #5dca86; }
+  .gap::after { content: "  ← one blank row (paddingTop: 1)"; color: #8be0a8; font-family: ui-sans-serif, system-ui, sans-serif; font-size: 11px; }
+  .sail, .hull { background: #14243a; color: #d77757; }
+  .stock { background: #2a2438; color: #d7c9ff; }
+  .legend span { display: inline-block; padding: 2px 8px; margin-right: 8px; border-radius: 4px; font-size: 12px; }
+</style>
+</head>
+<body>
+<h1>Claude Code Calm: one blank row above the working boat</h1>
+<p>Live tmux capture of Claude Code v2.1.317 in a disposable FM_HOME lab, Calm on, after filling the transcript so the boat sits under the highlighted user prompt. The wanted result is exactly one blank row between that prompt and the sail.</p>
+<div class="legend">
+  <span class="prompt">highlighted prompt</span>
+  <span class="gap">blank gap row</span>
+  <span class="sail">boat</span>
+</div>
+<h2>Calm on, dense transcript (the bug surface)</h2>
+<div class="term">
+<div class="row ">  filler 2</div>
+<div class="row ">  filler 3</div>
+<div class="row ">  filler 4</div>
+<div class="row ">  filler 5</div>
+<div class="row ">  filler 6</div>
+<div class="row ">  filler 7</div>
+<div class="row ">  filler 8</div>
+<div class="row ">  filler 9</div>
+<div class="row ">  filler 10</div>
+<div class="row ">  filler 11</div>
+<div class="row ">  filler 12</div>
+<div class="row ">  filler 13</div>
+<div class="row ">  filler 14</div>
+<div class="row ">  filler 15</div>
+<div class="row ">  filler 16</div>
+<div class="row ">  filler 17</div>
+<div class="row ">  filler 18</div>
+<div class="row ">  filler 19</div>
+<div class="row ">  filler 20</div>
+<div class="row ">  filler 21</div>
+<div class="row ">  filler 22</div>
+<div class="row ">  filler 23</div>
+<div class="row ">  filler 24</div>
+<div class="row ">  filler 25</div>
+<div class="row ">  filler 26</div>
+<div class="row ">  filler 27</div>
+<div class="row ">  filler 28</div>
+<div class="row ">&nbsp;</div>
+<div class="row ">✻ Cogitated for 2s · done 7:34 AM</div>
+<div class="row ">&nbsp;</div>
+<div class="row prompt">❯ Run this exact bash command with the Bash tool: sleep 15; echo live-calm-gap-ok2   Then reply with one short sentence</div>
+<div class="row prompt">  containing live-calm-gap-ok2.</div>
+<div class="row gap">&nbsp;</div>
+<div class="row sail">                         ◿│◣</div>
+<div class="row hull">▁▂▂▃▃▃▄▄▄▄▄▄▃▃▃▂▂▂▁▁▁▁▁▁╲▁▁▁╱▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▃▃▃▂▂▂▁▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▄▃▃▂▂▁</div>
+<div class="row ">&nbsp;</div>
+<div class="row ">────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────</div>
+<div class="row ">❯ </div>
+<div class="row ">────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────</div>
+<div class="row ">  ⏵⏵ bypass permissions on (shift+tab to cycle) · esc to interrupt</div>
+</div>
+<h2>Calm off: stock working row, no boat</h2>
+<p>Same session after <code>/calm</code> persisted <code>off</code>. The stock spinner is a one-line working row; tool rows are visible again; the boat and its padding are gone.</p>
+<div class="term">
+<div class="row ">  filler 15</div>
+<div class="row ">  filler 16</div>
+<div class="row ">  filler 17</div>
+<div class="row ">  filler 18</div>
+<div class="row ">  filler 19</div>
+<div class="row ">  filler 20</div>
+<div class="row ">  filler 21</div>
+<div class="row ">  filler 22</div>
+<div class="row ">  filler 23</div>
+<div class="row ">  filler 24</div>
+<div class="row ">  filler 25</div>
+<div class="row ">  filler 26</div>
+<div class="row ">  filler 27</div>
+<div class="row ">  filler 28</div>
+<div class="row ">&nbsp;</div>
+<div class="row ">✻ Cogitated for 2s · done 7:34 AM</div>
+<div class="row ">&nbsp;</div>
+<div class="row ">❯ Run this exact bash command with the Bash tool: sleep 15; echo live-calm-gap-ok2   Then reply with one short sentence</div>
+<div class="row ">  containing live-calm-gap-ok2.</div>
+<div class="row ">&nbsp;</div>
+<div class="row ">  Ran 1 shell command</div>
+<div class="row ">&nbsp;</div>
+<div class="row ">● Captain, the command finished and printed live-calm-gap-ok2.</div>
+<div class="row ">&nbsp;</div>
+<div class="row ">✻ Brewed for 19s · done 7:34 AM</div>
+<div class="row ">&nbsp;</div>
+<div class="row ">❯ Run this exact bash command with the Bash tool: sleep 8; echo live-calm-off-ok   Then reply with one short sentence</div>
+<div class="row ">  containing live-calm-off-ok.</div>
+<div class="row ">&nbsp;</div>
+<div class="row ">  Sleeping 8 seconds then echo marker · 3s</div>
+<div class="row ">  ⎿  $ sleep 8; echo live-calm-off-ok (4s)</div>
+<div class="row ">     (ctrl+b ctrl+b (twice) to run in background)</div>
+<div class="row ">&nbsp;</div>
+<div class="row stock">✶ Galloping… (5s · ↓ 91 tokens)</div>
+<div class="row ">  ⎿  Tip: Run /install-github-app to tag @claude right from your Github issues and PRs</div>
+<div class="row ">&nbsp;</div>
+<div class="row ">────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────</div>
+<div class="row ">❯ </div>
+<div class="row ">────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────</div>
+<div class="row ">  ⏵⏵ bypass permissions on (shift+tab to cycle) · esc to interrupt</div>
+</div>
+</body>
+</html>
