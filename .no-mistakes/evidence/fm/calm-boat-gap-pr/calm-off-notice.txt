@@ -1,0 +1,20 @@
+                                                                                                            ╭──────────╮
+                                                                                                            │ fm       │
+  Ran 1 shell command                                                                                       │ Calm off │
+                                                                                                            ╰──────────╯
+● The three words in notes.txt are alpha, beta, and gamma.
+
+✻ Brewed for 14s · done 7:05 AM
+
+❯ Run this exact bash command with the Bash tool: sleep 15; echo still-working   Then reply with exactly READY_BOAT.
+
+  Ran 1 shell command
+
+● READY_BOAT
+
+✻ Baked for 18s · done 7:05 AM
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+❯ 
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  ⏵⏵ bypass permissions on (shift+tab to cycle)

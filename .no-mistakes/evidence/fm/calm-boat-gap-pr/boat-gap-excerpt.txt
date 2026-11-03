@@ -1,0 +1,4 @@
+11|❯ Run this exact bash command with the Bash tool: sleep 15; echo still-working   Then reply with exactly READY_BOAT.
+12|
+13|                 ◿│◣
+14|▄▄▄▄▃▃▃▂▂▂▁▁▁▁▁▁╲▁▁▁╱▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▃▃▃▂▂▂▁▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▄▃▃▂▂▁▁▁▁▁▁▂▂▃

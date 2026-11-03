@@ -1,56 +1,41 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><title>Calm working boat gap</title>
+<html lang='en'><head><meta charset='utf-8'>
+<title>Calm working boat gap</title>
 <style>
-body { background:#0d1117; color:#e6edf3; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; margin:24px; }
+body { background:#1b1b1b; color:#e8e6e3; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; margin:24px; }
 h1 { font-size:16px; font-weight:600; }
-pre { background:#161b22; border:1px solid #30363d; border-radius:8px; padding:16px; line-height:1.35; white-space:pre; overflow:auto; }
-.note { color:#8b949e; margin-bottom:12px; }
+p { color:#b0aaa3; font-size:13px; max-width:80ch; }
+pre.tui { background:#0e0e0e; border:1px solid #333; padding:12px 14px; overflow:auto; line-height:1.35; font-size:12px; white-space:pre; }
+.sail { color:#d77757; }
+.hull { color:#93a5ff; }
+.hull .boat { color:#d77757; }
+.gap { background:#3a2f12; outline:1px dashed #c9a227; }
+.prompt { background:#2a2418; color:#f4e6c3; }
+.note { margin-top:16px; font-size:12px; color:#c9a227; }
 </style></head><body>
-<h1>Claude Code Calm working sailboat — live pane</h1>
-<p class="note">One blank row should sit between the highlighted user prompt and the sail (paddingTop 1). Hull on the next row.</p>
-<pre>
- ▐▛███▛█   Claude Code v2.1.296
-▝▜██████▀  Haiku 5.5 · Claude Pro
- ▝▝   ▝▝   /tmp/fm-lab.gEYMHP/project
-
-▎ Debug mode enabled · logging to /home/lewis/.local/share/firstmate/nm-home/evidence/01M4W1AYNBQ6QFHQ880W7NWVY8/claude-debug.log
-
-❯ Run this exact bash command with the Bash tool: sleep 12; printf BOATGAP_TOKEN\\n   Then reply with only BOATGAP_TOKEN.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- ◿│◣
-╲▁▁▁╱▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▃▃▃▂▂▂▁▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▄▃▃▂▂▁▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▄▃▃▂▂▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▃▃▃▂
-                                                                                                                                  Ctrl+Y to paste deleted text
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-❯ 
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-  ⏵⏵ bypass permissions on (shift+tab to cycle) · esc to interrupt · ← for agents
+<h1>Calm working sailboat: one blank row above the sail</h1>
+<p>Live Claude Code 2.1.317 TUI, Calm on, function hooks enabled. The highlighted user prompt sits directly above the working boat because Calm hides the tool rows between them. <strong>paddingTop: 1</strong> leaves exactly one blank row so the sail does not touch that prompt.</p>
+<pre class='tui'>
+<span class='other'> </span>
+<span class='other'>▎ Debug mode enabled · logging to</span>
+<span class='other'>▎ /home/lewis/.local/share/firstmate/nm-home/evidence/01M6FMZW44MWK7GY08A0S7M28F/claude-debug-calm-on.log</span>
+<span class='other'> </span>
+<span class='prompt'>❯ Run this exact bash command with the Bash tool: sleep 8; cat notes.txt   Then reply with one short sentence naming</span>
+<span class='other'>  the three words.</span>
+<span class='other'> </span>
+<span class='other'>● The three words in notes.txt are alpha, beta, and gamma.</span>
+<span class='other'> </span>
+<span class='other'>✻ Brewed for 14s · done 7:05 AM</span>
+<span class='other'> </span>
+<span class='prompt'>❯ Run this exact bash command with the Bash tool: sleep 15; echo still-working   Then reply with exactly READY_BOAT.</span>
+<span class='gap'> </span>
+<span class='sail'>                 ◿│◣</span>
+<span class='hull'>▄▄▄▄▃▃▃▂▂▂▁▁▁▁▁▁<span class='boat'>╲▁▁▁╱</span>▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▄▄▃▃▃▂▂▁▁▁▁▁▁▂▂▂▃▃▃▄▄▄▄▄▃▃▃▂▂▂▁▁▁▁▁▁▂▂▃▃▃▄▄▄▄▄▄▃▃▂▂▁▁▁▁▁▁▂▂▃</span>
+<span class='other'> </span>
+<span class='rule'>────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────</span>
+<span class='composer'>❯ </span>
+<span class='rule'>────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────</span>
+<span class='other'>  ⏵⏵ bypass permissions on (shift+tab to cycle) · esc to interrupt</span>
 </pre>
+<p class='note'>Gold dashed row is the one blank line between the highlighted prompt and the sail.</p>
 </body></html>
